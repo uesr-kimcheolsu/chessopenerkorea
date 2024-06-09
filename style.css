@@ -9,9 +9,9 @@ a { color:white;
 .good { color:#9c0;
         fill:#9c0;
         stroke:#9c0}
-.common {color:#bb9;
-         fill:#bb9;
-         stroke:#bb9;}
+.common {color:#ba9;
+         fill:#ba9;
+         stroke:#ba9;}
 .tricky {color:#ca0;
          fill:#ca0;
          stroke:#ca0;}
@@ -19,11 +19,11 @@ a { color:white;
         fill:#c60;
         stroke:#c60;}
 .dark {background-color:#865;}
-.light {background-color:#feb;}
+.light {background-color:#edb;}
 .darkx {background-color:#b95;}
-.lightx {background-color:#fe7;}
+.lightx {background-color:#ed7;}
 .darkc {background-color:#b55;}
-.lightc {background-color:#f97;}
+.lightc {background-color:#e87;}
 .line { stroke-width: 0.15;
         stroke-linecap: round;
         opacity: 0.4;}
@@ -34,6 +34,13 @@ h1 {border-bottom: 5px solid white;
 
     font-size:80px;
     text-align:center;}
+h2 {width: 350px;}
+.image1 {
+        position: absolute;
+        top: 170px;
+        left: 365px;
+        width: 50px;
+        height: 50px;}
 .scroll {
 height: calc(100vh - 159px);
 overflow-y: scroll;
@@ -41,7 +48,8 @@ overflow-y: scroll;
 scrollbar-width: none;}
 .scroll::-webkit-scrollbar {display: none;}
 @media(max-width:747px) {
-    .scroll {height: calc(100vh - 265px);}}
+    .scroll {height: calc(100vh - 265px);}
+    .image1 {top: 286px;}}
 table { table-layout: fixed;
         width: 400px;
         height: 400px;
